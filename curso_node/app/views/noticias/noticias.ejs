@@ -1,0 +1,27 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Potal de Noticias</title>
+    </head>
+    <body>
+       
+            <h1>Portal de Noticias</h1>
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td>Titulo</td>    
+                    <td>Noticia</td>
+                </tr>
+                <% for(var i=0; i < lista.length; i++){ %>
+                <tr>
+                    <td><%= lista[i].id_noticias%></td>
+                    <td><%= lista[i].titulo%></td>    
+                    <td><%= lista[i].noticia%></td>
+                </tr>
+
+                <% }%>
+            </table>
+        
+    </body>
+
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Inlusao de Noticiais</title>
+    </head>
+    <body>
+        <form action="/noticias/salvar" method="POST">
+            <h1>Inclusao de Noticias</h1>
+        <br>
+        <Label>Titulo</Label>
+        <input type="text" id="titulo" name="titulo" placeholder="Titulo da Noticia"/>
+        <br>
+        <Label>Resumo</Label>
+        <input type="text" id="resumo" name="resumo" placeholder="Resumo da Noticia"/>
+        <br>
+        <Label>Autor</Label>
+        <input type="text" id="autor" name="autor" placeholder="Autor da Noticia"/>
+        <br>
+        <Label>Data_Noticia</Label>
+        <input type="date" id="data_noticia" name="data_noticia" placeholder="Data da Noticia"/>
+        <br>
+        <Label>Noticiai</Label>
+          <textarea id="noticia" name="noticia" placeholder="Texto da Noticia" rows="5" cols="30"></textarea>  
+        <br>
+        <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+
+</html>
