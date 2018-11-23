@@ -17,6 +17,7 @@ app.use(validator());
 consign()
 .include('./app/routes')
 .then('./config/dbConnection.js')
+.then('./app/controllers')
 .then('./app/models')
 .into(app);
 
